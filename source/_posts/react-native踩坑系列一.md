@@ -9,7 +9,7 @@ tags:
 
 Invariant Violation:Applicaction 项目名 has not been registered.This is either due to a require() error during initialization or failure to call AppRegistry.registerCommponent.
 
-![](http://upload-images.jianshu.io/upload_images/1435825-afa737fbfecf445c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://www.yaotiancheng.cn:8080/img/blogImage/react-native01.jpg)
 
 **解决方案一：**
 
