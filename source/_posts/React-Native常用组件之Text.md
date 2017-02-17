@@ -14,7 +14,7 @@ Attributes.style = {
     #字体颜色
     color string
     #进行设置Text显示文本的行数，如果显示的内容超过了行数，默认其他多余的信息就不会显示了
-    containerBackgroundColor string
+    numberOfLines number
     #字体名称
     fontFamily string
     #字体大小
@@ -28,8 +28,7 @@ Attributes.style = {
     textAlign enum("auto", 'left', 'right', 'center')
     #文本方向
     writingDirection enum("auto", 'ltr', 'rtl')
-    #行数
-    numberOfLines number    
+        
     #该方法当文本发生点击的时候调用该方法
     onPress  fcuntion
     #设置阴影效果
