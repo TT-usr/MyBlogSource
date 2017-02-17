@@ -25,6 +25,10 @@ iOS程序猿一枚,目前就职于鹿秀金融~
 Twitter： [姚天成](https://twitter.com/990667302)
 
 Github：[hfangelx2](https://github.com/hfangelx2)   [zichenJack](https://github.com/zichenJack)
+
+EMail：[ytc19930125@gmail.com](mailto:ytc19930125@gmail.com)
+
+TEL： [13157004162](tel://13157004162)
 		
 **算是个人描述：**
 
