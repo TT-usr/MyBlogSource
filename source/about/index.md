@@ -143,14 +143,26 @@ AppStore曾经下载地址：[**乐听music**](https://itunes.apple.com/cn/app/i
 
 	熟悉 HTML CSS 
 	了解 JavaScript
+	了解 React-Native
 iOS：
 	
-	swift, Objective-C
+	了解swift, 可以开发一般项目
+	熟悉Objective-C
 后端：
 	
-	正在学习ruby on rails
+	正在学习Ruby on Rails
 其他：
 	
-	Git, SVN, 能翻墙, 有VPS自驾梯子
+	熟悉Git, SVN, 
+	能翻墙, 有VPS自驾梯子
+	有自建博客
+
+
+###下一步计划
+
+    继续学习Ruby以及iOS相关技术栈
+    争取熟悉FFmpeg以及GPUImage
+    并逐渐走入跨平台开发
+    
 
 
