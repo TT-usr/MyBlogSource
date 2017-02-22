@@ -2,6 +2,7 @@
 title: vps实现文件下载
 date: 2017-02-17 14:03:14
 tags:
+        - Linux
 ---
 
 1.配置nginx配置文件

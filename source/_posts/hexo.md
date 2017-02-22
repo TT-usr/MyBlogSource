@@ -1,5 +1,7 @@
 ---
 title: 搭建hexo博客到自己的VPS
+tags:
+        - Linux
 ---
 
 > 说明一下配置：
