@@ -5,7 +5,7 @@ tags:
         - Linux
 ---
 
-首先可以看一下-> [博客的SSL的安全检测](https://www.ssllabs.com/ssltest/analyze.html?d=www.yaotiancheng.cn)
+首先可以看一下-> [博客的SSL的安全检测](https://www.ssllabs.com/ssltest/analyze.html?d=www.yaotiancheng.cn&s=104.194.65.102)
 
 有时间整理一下，如何部署的HTTPS，没错就是来炫耀的😉😉😉😉
 
