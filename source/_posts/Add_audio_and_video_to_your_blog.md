@@ -16,7 +16,7 @@ tags:
 
 首先安装两款插件
 
-打开iTerm, cd到你的hexo目录
+打开`iTerm`, `cd`到你的`hexo`目录
 运行如下两条命令
 
 ```shell
@@ -25,9 +25,9 @@ npm install hexo-tag-dplayer --save
 npm install hexo-tag-aplayer --save
 ```
 
-安装成功后，在 Markdown 文档中添加 APlayer 和 DPlayer 标签即可
+安装成功后，在 `Markdown` 文档中添加 `APlayer` 和 `DPlayer` 标签即可
 
-比如添加如下代码使用 APlayer 和 DPlayer：
+比如添加如下代码使用 `APlayer` 和 `DPlayer`：
 
 ```JavaScript
 {% aplayer "wake" "Hillsong Young And Free" "http://www.yaotiancheng.cn:8080/wake.mp3" "autoplay" %}

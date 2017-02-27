@@ -1,6 +1,6 @@
 ---
 title: FFmpeg文档翻译
-date: 2017-02-22 14:26:30
+date: 2017-02-21 14:26:30
 tags:
         - FFmpeg
 ---
