@@ -1,5 +1,5 @@
 ---
-title: forget_MySQL_root_password
+title: 重置MySQL的root密码
 date: 2017-03-01 16:14:21
 tags:
         - MySQL
@@ -11,12 +11,15 @@ tags:
 
 * 打开你的iTerm ，输入
 
-  ```bash
-  sudo /usr/local/mysql/bin/mysqld_safe --skip-grant-tables
-  ```  
-* 再开一个iTerm窗口吧，输入：
+```
+          sudo /usr/local/mysql/bin/mysqld_safe --skip-grant-tables
+```
 
-```bash
+   
+* 再开一个iTerm窗口吧，上一个窗口不要关，新的iTerm终端输入：
+
+
+```
 
 sudo /usr/local/mysql/bin/mysql -u root
 
@@ -30,8 +33,12 @@ FLUSH PRIVILEGES;
 
 //退出
 quit;
+
 ```
 
 如果不出意外，估计就可以啦。
 尝试用`mysql -u root -p`登录吧
+
+如果登录了以后使用语句依旧报错，类似于`ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement` SET PASSWORD = PASSWORD('新密码');
+这样再尝试一下`show database;`语句，不报错就可以正常使用咯
 
