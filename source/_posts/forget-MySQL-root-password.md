@@ -5,7 +5,7 @@ tags:
         - MySQL
 ---
 
-> 经历过一次在Mac上装MySQL的过程，就觉得MySQL真坑，提示的一次性密码居然也是错的。。果断开始查如何充值MySQL root密码。。
+> 经历过一次在Mac上装MySQL的过程，就觉得MySQL真坑，提示的一次性密码居然也是错的。。果断开始查如何重置MySQL root密码。。
 
 *  停止 mysql server.  通常是在 '系统偏好设置' > MySQL > 'Stop MySQL Server'
 
@@ -39,6 +39,6 @@ quit;
 如果不出意外，估计就可以啦。
 尝试用`mysql -u root -p`登录吧
 
-如果登录了以后使用语句依旧报错，类似于`ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement` SET PASSWORD = PASSWORD('新密码');
+如果登录了以后使用语句依旧报错，类似于`ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement` 使用 `SET PASSWORD = PASSWORD('新密码');`
 这样再尝试一下`show database;`语句，不报错就可以正常使用咯
 
