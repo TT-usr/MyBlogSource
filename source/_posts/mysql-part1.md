@@ -33,4 +33,21 @@ tags:
 
     CREATE TABLE t_person(name , age  );
 
+约束
+
+* 不能为空
+    `not null`
+* 不能重复
+    ``
+* 默认值
+
+        CREATE table t_abc(id integer PRIMARY key AUTO_INCREMENT ,name text not null , age INTEGER DEFAULT 99 ,score real UNIQUE);
+          释义：
+        -- PRIMARY key 主键
+        -- AUTO_INCREMENT 自动增长（可直接设置初始值例如： AUTO_INCREMENT=100）
+        -- not null 不为空
+        -- UNIQUE 唯一
+
+
+    
 
